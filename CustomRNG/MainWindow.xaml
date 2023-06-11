@@ -1,0 +1,19 @@
+﻿<Window x:Class="CustomRNG.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CustomRNG"
+        mc:Ignorable="d"
+        Title="RNG" Height="140" Width="220" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="manualButton" Click="manualButton_Click" Content="Generate" Cursor="Hand" HorizontalAlignment="Center" Margin="0,40,0,0" VerticalAlignment="Center" Width="95" FontSize="18" FontWeight="Bold"/>
+        <TextBlock x:Name="rngTextBlock" HorizontalAlignment="Center" TextAlignment="Center" Margin="0,0,0,45" TextWrapping="Wrap" VerticalAlignment="Center" Width="100" Height="50" FontSize="36" FontWeight="Bold"/>
+        <CheckBox x:Name="autoCheckBox" Content="Auto" HorizontalAlignment="Left" Margin="4,5,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="timeIntervalTextBox" HorizontalAlignment="Left" Margin="5,25,0,0" VerticalAlignment="Top" Width="25" Text="5"/>
+        <Label Content="sec" HorizontalAlignment="Left" Margin="28,20,0,0" VerticalAlignment="Top" Height="23"/>
+        <CheckBox x:Name="invertColorCheckBox" HorizontalAlignment="Left" Margin="5,48,0,0" VerticalAlignment="Top"/>
+        <Label Content="Color" HorizontalAlignment="Left" Margin="0,56,0,0" VerticalAlignment="Top" Height="23"/>
+        <Label Content="Invert" HorizontalAlignment="Left" Margin="0,67,0,0" VerticalAlignment="Top" Height="23"/>
+    </Grid>
+</Window>
