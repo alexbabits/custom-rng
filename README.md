@@ -1,5 +1,7 @@
 **Custom Random Number Generator**
 
+![](rng.png)
+
 --> Resizable. 
 
 --> Changes color based on number from 0 to 100. Can invert color scheme
